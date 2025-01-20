@@ -11,6 +11,6 @@ meme_dict = {
             }
 
 if word in meme_dict.keys():
-    print(word)
+    print(meme_dict[word])
 else:
     print("такого слова нет")
